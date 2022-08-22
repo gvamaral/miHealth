@@ -1,0 +1,13 @@
+@font-face {
+    font-family: nick-titling;
+    src: url(../fonts/nick-titling.ttf);
+}
+h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: nick-titling;
+    color: #8dc728;
+}
+span{
+    color:#ce2020;
+}
