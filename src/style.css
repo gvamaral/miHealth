@@ -2,12 +2,67 @@
     font-family: nick-titling;
     src: url(../fonts/nick-titling.ttf);
 }
+@font-face {
+    font-family: worksans-extrabold;
+    src: url(../fonts/WorkSans-ExtraBold.ttf);
+}
+header{
+    display: flex;
+    background-color: #FFF;
+    align-items: center;
+    padding: 27px 85px;
+    justify-content: space-between;
+}
 h2{
     font-size: 40px;
     letter-spacing: 2px;
     font-family: nick-titling;
     color: #8dc728;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin:30px;
+    font-family: sans-serif;
+    font-size: medium;
 }
 span{
-    color:#ce2020;
+    color: #ce2020;
+}
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px;
+    gap: 12px
+}
+h1{
+    font-family: worksans-extrabold;
+    font-size: 70px;
+    line-height: 54px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+.content{
+    width: 300rem;
+    margin-right: 50px;
+    align-self: left;
+}
+h5{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+img{
+    height: 27em;
+    width: 19em;
 }
